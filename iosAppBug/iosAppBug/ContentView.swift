@@ -5,7 +5,14 @@ struct ContentView: View {
 	let greet = Greeting().greet()
 
 	var body: some View {
-		Text(greet)
+        VStack{
+            Text(greet)
+            Button(action: {
+                Greeting().speakCommon(string: "Hello IOs Apps")
+            }, label: {
+                Text("Speak")
+            })
+        }
 	}
 }
 
