@@ -20,8 +20,8 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		42295B5642FA266AD599DA3A0CDCBE35 /* Pods-iosAppBug-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA8819EDD29454354A25C5C6CCD881FF /* Pods-iosAppBug-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4322468C45CD6EF419237D51BCCD1D93 /* Pods-iosAppBug-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 956FE39FBF5A375E431174570B981587 /* Pods-iosAppBug-dummy.m */; };
+		42295B5642FA266AD599DA3A0CDCBE35 /* Pods-iosAppBug-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC431F964CBF6731BCED621316438FD1 /* Pods-iosAppBug-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4322468C45CD6EF419237D51BCCD1D93 /* Pods-iosAppBug-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74573335793564C62F6D7766DBE10D35 /* Pods-iosAppBug-dummy.m */; };
 		A9EB39D7D69EB190BD9EC3C4C442DA39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,22 +36,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1699E3E791B314F52AE532E8AE236CA7 /* Pods-iosAppBug-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iosAppBug-Info.plist"; sourceTree = "<group>"; };
+		45DA46F9A9FCB3A9D989CF655C63DA98 /* Pods-iosAppBug.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iosAppBug.modulemap"; sourceTree = "<group>"; };
 		4C1049F5E094627517ED820074F3CF88 /* shared.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = shared.release.xcconfig; sourceTree = "<group>"; };
-		6F629390E8BB5F1C0B6410EBFBD0AB3E /* Pods-iosAppBug.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iosAppBug.release.xcconfig"; sourceTree = "<group>"; };
+		679CA8BB5F7E1D64852FF3BCF72ACB1C /* Pods-iosAppBug.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iosAppBug.debug.xcconfig"; sourceTree = "<group>"; };
+		72333A5D4C140B1BFEE8F235943D84C1 /* Pods-iosAppBug.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iosAppBug.release.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		74573335793564C62F6D7766DBE10D35 /* Pods-iosAppBug-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iosAppBug-dummy.m"; sourceTree = "<group>"; };
+		808E6BAE45E48521E638EB7B16CC82EC /* Pods-iosAppBug-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iosAppBug-acknowledgements.markdown"; sourceTree = "<group>"; };
 		80E113F020A5F1A35AF0293E72F2ECA5 /* shared.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = shared.debug.xcconfig; sourceTree = "<group>"; };
-		956FE39FBF5A375E431174570B981587 /* Pods-iosAppBug-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iosAppBug-dummy.m"; sourceTree = "<group>"; };
-		961CE94F309C0B17A062A704267D1E83 /* Pods-iosAppBug-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iosAppBug-Info.plist"; sourceTree = "<group>"; };
+		875BDAF0AF07484306AA5646C1AB3B9C /* Pods-iosAppBug-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iosAppBug-acknowledgements.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E976215517ECF4DC36FBDD644BB6683 /* shared.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = shared.framework; path = build/cocoapods/framework/shared.framework; sourceTree = "<group>"; };
-		AC0D37802DD775D0D9755A377EB83443 /* Pods-iosAppBug.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iosAppBug.debug.xcconfig"; sourceTree = "<group>"; };
-		B93DF9008F33B1BA5ED798FC4140E5E1 /* Pods-iosAppBug.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iosAppBug.modulemap"; sourceTree = "<group>"; };
-		C16FE741B3F94B94D9DF1ACBEAA0475E /* Pods-iosAppBug-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iosAppBug-acknowledgements.plist"; sourceTree = "<group>"; };
-		CA8819EDD29454354A25C5C6CCD881FF /* Pods-iosAppBug-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iosAppBug-umbrella.h"; sourceTree = "<group>"; };
 		CAABD521E8FD07FBE099041506E92CE4 /* shared.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = shared.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		D3F1F71E52439E101D2357F7D389D36D /* Pods-iosAppBug-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iosAppBug-frameworks.sh"; sourceTree = "<group>"; };
+		CC431F964CBF6731BCED621316438FD1 /* Pods-iosAppBug-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iosAppBug-umbrella.h"; sourceTree = "<group>"; };
 		EC314DDC27E3C1463F22F76506EDEF39 /* Pods-iosAppBug */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-iosAppBug"; path = Pods_iosAppBug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE44D785AF92D3B5F360FFEA04D59595 /* Pods-iosAppBug-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iosAppBug-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,18 +97,17 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		91FE42D5B430E09EAB29D13DFE11C176 /* Pods-iosAppBug */ = {
+		696492523D1332560514FF26DD25259C /* Pods-iosAppBug */ = {
 			isa = PBXGroup;
 			children = (
-				B93DF9008F33B1BA5ED798FC4140E5E1 /* Pods-iosAppBug.modulemap */,
-				EE44D785AF92D3B5F360FFEA04D59595 /* Pods-iosAppBug-acknowledgements.markdown */,
-				C16FE741B3F94B94D9DF1ACBEAA0475E /* Pods-iosAppBug-acknowledgements.plist */,
-				956FE39FBF5A375E431174570B981587 /* Pods-iosAppBug-dummy.m */,
-				D3F1F71E52439E101D2357F7D389D36D /* Pods-iosAppBug-frameworks.sh */,
-				961CE94F309C0B17A062A704267D1E83 /* Pods-iosAppBug-Info.plist */,
-				CA8819EDD29454354A25C5C6CCD881FF /* Pods-iosAppBug-umbrella.h */,
-				AC0D37802DD775D0D9755A377EB83443 /* Pods-iosAppBug.debug.xcconfig */,
-				6F629390E8BB5F1C0B6410EBFBD0AB3E /* Pods-iosAppBug.release.xcconfig */,
+				45DA46F9A9FCB3A9D989CF655C63DA98 /* Pods-iosAppBug.modulemap */,
+				808E6BAE45E48521E638EB7B16CC82EC /* Pods-iosAppBug-acknowledgements.markdown */,
+				875BDAF0AF07484306AA5646C1AB3B9C /* Pods-iosAppBug-acknowledgements.plist */,
+				74573335793564C62F6D7766DBE10D35 /* Pods-iosAppBug-dummy.m */,
+				1699E3E791B314F52AE532E8AE236CA7 /* Pods-iosAppBug-Info.plist */,
+				CC431F964CBF6731BCED621316438FD1 /* Pods-iosAppBug-umbrella.h */,
+				679CA8BB5F7E1D64852FF3BCF72ACB1C /* Pods-iosAppBug.debug.xcconfig */,
+				72333A5D4C140B1BFEE8F235943D84C1 /* Pods-iosAppBug.release.xcconfig */,
 			);
 			name = "Pods-iosAppBug";
 			path = "Target Support Files/Pods-iosAppBug";
@@ -124,14 +122,6 @@
 			);
 			name = shared;
 			path = ../../shared;
-			sourceTree = "<group>";
-		};
-		9F00C2D8610CF3343FF8FABDCCB7EB48 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				91FE42D5B430E09EAB29D13DFE11C176 /* Pods-iosAppBug */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		AD722F2E6B2744701D4F046A9C758D58 /* Support Files */ = {
@@ -151,7 +141,7 @@
 				313FE5FE915A4A924C55AAC02A910D61 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				273424998EC8797835BD77BBC180EE24 /* Products */,
-				9F00C2D8610CF3343FF8FABDCCB7EB48 /* Targets Support Files */,
+				E3E13076B2A363C0F1B8E50F6920BB58 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -161,6 +151,14 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3E13076B2A363C0F1B8E50F6920BB58 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				696492523D1332560514FF26DD25259C /* Pods-iosAppBug */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		F321D14A0766162A6C2293F3FE70959C /* Frameworks */ = {
@@ -278,7 +276,7 @@
 /* Begin XCBuildConfiguration section */
 		1531BAC2AA16241096D6087A5C6FE333 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F629390E8BB5F1C0B6410EBFBD0AB3E /* Pods-iosAppBug.release.xcconfig */;
+			baseConfigurationReference = 72333A5D4C140B1BFEE8F235943D84C1 /* Pods-iosAppBug.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -479,7 +477,7 @@
 		};
 		C508F4937331C2EE367E49FED37D2797 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC0D37802DD775D0D9755A377EB83443 /* Pods-iosAppBug.debug.xcconfig */;
+			baseConfigurationReference = 679CA8BB5F7E1D64852FF3BCF72ACB1C /* Pods-iosAppBug.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
